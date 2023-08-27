@@ -26,6 +26,7 @@ public class CarController {
 		return ("hei " + nimi + " " + age + " vuotta.");
 	}
 	
+	//Viikkotehtävät_viikko 1
 	@RequestMapping("index")
 	@ResponseBody
 	public String mainPage() {
